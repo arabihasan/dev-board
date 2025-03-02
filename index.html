@@ -12,7 +12,11 @@
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <title>Developer Board</title>
   </head>
+
   <body class="bg-[#F4F7FF] pt-2">
+
+
+    <!-- navbar start -->
     <nav
       class="flex justify-between items-center bg-white p-4 mx-5 my-2 rounded-xl"
     >
@@ -32,8 +36,13 @@
         </button>
       </div>
     </nav>
-    <main class="grid grid-cols-12 gap-4 mt-4 mx-5 my-2 rounded-xl pb-4">
-      <div class="col-span-10 bg-white p-3 rounded-md">
+    <!-- navbar end -->
+
+    <main class="grid grid-cols-4 gap-4 mt-4 mx-5 my-2 rounded-xl pb-4 ">
+
+
+        <!-- menu start -->
+      <div class="col-span-3 bg-white p-3 rounded-md">
         <section class="grid grid-cols-4 gap-2">
           <div
             class="bg-[#F4F7FF] flex justify-center items-center py-4 space-x-3 rounded-lg"
@@ -64,8 +73,26 @@
             <p>Wed ,<br /><span class="text-lg font-bold">Jul 28 2025</span></p>
           </div>
         </section>
+        <section class="pt-5">
+            <div class="bg-[#F4F7FF] p-2">
+                <button class="btn bg-white">ShopEase</button>
+                <h1>Fix Mobile Button Issue </h1>
+                <div>
+                    <p>Debug using Chrome DevTools, check for overlapping</p>
+                </div>
+                <div>
+                    <div>
+                        <p>Deadline <br><span>21 March 2025</span></p>
+                        <button>Complete</button>
+                    </div>
+                </div>
+            </div>
+           </section>
       </div>
-      <div class="bg-white col-span-2 rounded-lg">
+      <!-- menu end -->
+
+      <!-- sidebar start -->
+      <div class="bg-white col-span-1 row-span-2 rounded-lg h-full">
         <div class="flex flex-col justify-center items-center">
           <div class="flex justify-center items-center space-x-3 pt-3 mb-3">
             <img src="./assets/activity.png" alt="" />
@@ -74,6 +101,10 @@
           <button class="btn btn-primary bg-[#3752FD]">Clear History</button>
         </div>
       </div>
+      <!-- sidebar end -->
+
+      <!-- card section -->
+       
     </main>
     <script src="./script.js"></script>
   </body>
