@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>Developer Board</title>
+  </head>
+  <body class="bg-[#F4F7FF] pt-2">
+    <nav
+      class="flex justify-between items-center bg-white p-4 mx-5 my-2 rounded-xl"
+    >
+      <div class="flex justify-center items-center space-x-3">
+        <img src="./assets/logo.png" alt="" />
+        <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+      </div>
+      <div class="flex justify-center items-center space-x-6">
+        <div
+          class="flex justify-center items-center space-x-2 bg-[#F4F7FF] p-2 rounded-md"
+        >
+          <img src="./assets/checkbox.png" alt="" />
+          <h1 class="text-2xl font-semibold">23</h1>
+        </div>
+        <button class="cursor-pointer">
+          <img src="./assets/theme-btn.png" alt="" />
+        </button>
+      </div>
+    </nav>
+    <main class="grid grid-cols-12 gap-4 mt-4 mx-5 my-2 rounded-xl pb-4">
+      <div class="col-span-10 bg-white p-3 rounded-md">
+        <section class="grid grid-cols-4 gap-2">
+          <div
+            class="bg-[#F4F7FF] flex justify-center items-center py-4 space-x-3 rounded-lg"
+          >
+            <button class="bg-white rounded-full">
+              <img class="p-3" src="./assets/checkbox.png" alt="" />
+            </button>
+            <div>
+              <p class="text-sm text-slate-500">Task Assign</p>
+              <h1 class="text-xl font-bold">06</h1>
+            </div>
+          </div>
+          <div
+            class="flex justify-center space-y-3 space-x-3 items-center col-span-2 bg-blue-500 rounded-lg cursor-pointer"
+          >
+            <img src="./assets/board.png" alt="" />
+            <p class="text-white text-xl">
+              Discover something <br />
+              new today!
+            </p>
+          </div>
+          <div
+            class="bg-[#F4F7FF] flex justify-center items-center py-4 space-x-3 rounded-lg"
+          >
+            <button class="bg-white rounded-full">
+              <img class="p-3" src="./assets/calender.png" alt="" />
+            </button>
+            <p>Wed ,<br /><span class="text-lg font-bold">Jul 28 2025</span></p>
+          </div>
+        </section>
+      </div>
+      <div class="bg-white col-span-2 rounded-lg">
+        <div class="flex flex-col justify-center items-center">
+          <div class="flex justify-center items-center space-x-3 pt-3 mb-3">
+            <img src="./assets/activity.png" alt="" />
+            <p>Activity Log</p>
+          </div>
+          <button class="btn btn-primary bg-[#3752FD]">Clear History</button>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
