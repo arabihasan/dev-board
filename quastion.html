@@ -21,9 +21,72 @@
         <img src="./assets/logo.png" alt="" />
         <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
       </div>
-      <button class="complete btn btn-primary bg-[#3752FD]"> Back to Desk</button>
+      <button class="complete btn btn-primary bg-[#3752FD]">
+        Back to Desk
+      </button>
     </nav>
     <!-- navbar end -->
-     <!--  -->
+    <!-- question section -->
+    <main class="mt-4 mx-5 my-2 rounded-xl pb-4">
+      <!-- q-1 -->
+      <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title font-semibold">
+          Question-1: What are the different ways to select an element in the
+          DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          5 different ways of select dom. Here is 5 element getElementByTagName,
+          getElementById, getElementsByClassName, querySelectior and
+          querySelectiorAll.
+        </div>
+      </div>
+      <!-- q-2 -->
+      <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold">
+          Question-2: What is the difference between innerHTML, innerText, and
+          textContent?
+        </div>
+        <div class="collapse-content text-sm">
+          The difference is: innerHTML returns html elements. innerText returns
+          elements text node and textContent can return text and hidden text
+          also.
+        </div>
+      </div>
+      <!-- q-3 -->
+      <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold">
+          Question-3: What is event delegation in the DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          Event delegation is based event building method.It allow handle event
+          in higher level in DOM.
+        </div>
+      </div>
+      <!-- q-4 -->
+      <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold">
+          Question-4: What is event bubbling in the DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          When an event happens on an element, it first runs the handlers on it,
+          then on its parent, then all the way up on other child.
+        </div>
+      </div>
+      <!-- q-5 -->
+      <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold">
+          Question-5: How do you create, add, and remove elements using
+          JavaScript?
+        </div>
+        <div class="collapse-content text-sm">
+          When I create add or remove i'll using createElement for create, appendChild for add and removeChild for removing.
+        </div>
+      </div>
+    </main>
   </body>
 </html>
