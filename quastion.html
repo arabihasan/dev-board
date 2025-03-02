@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
     <title>Question</title>
   </head>
-  <body class="bg-[#F4F7FF] pt-2">
+  <body id="blog-section" class="bg-[#F4F7FF] pt-2">
     <!-- navbar start -->
     <nav
       class="flex justify-between items-center bg-white p-4 mx-5 my-2 rounded-xl"
@@ -21,7 +21,7 @@
         <img src="./assets/logo.png" alt="" />
         <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
       </div>
-      <button class="complete btn btn-primary bg-[#3752FD]">
+      <button id="home-btn" class="btn btn-primary bg-[#3752FD]">
         Back to Desk
       </button>
     </nav>
@@ -88,5 +88,10 @@
         </div>
       </div>
     </main>
+
+
+    <script>
+        document.getElementById('home-btn').addEventListener('click',()=>document.location.href='./index.html')
+    </script>
   </body>
 </html>
